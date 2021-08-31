@@ -1,11 +1,8 @@
 package br.com.socin.domain.service;
 
-import java.util.Optional;
-
 import javax.transaction.Transactional;
 import javax.validation.Valid;
 
-import org.springframework.security.core.userdetails.*;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
