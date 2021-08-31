@@ -14,7 +14,8 @@ Projeto Criado usando JAVA 11 e Spring Boot 2.5.4
 
 ### Banco 
 * MySql
-
+* Substitua no application.properties ${JDBC_DATASOURCE_URL} 
+por : jdbc:mysql://localhost:3306/socin_test?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 
 ### Bibliotecas do projeto
 * Flyway  
